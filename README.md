@@ -61,7 +61,7 @@ Please note that component has three buttons which do the following: load vologr
 
 ### **Exporting Volograms from Volu app** 
 <a href="https://apps.apple.com/us/app/volu-3d-volumetric-holograms/id1555245459">Volu</a> is the application by Volograms, which is only available for IOS devices at present. It is possible to generate volumetric videos of persons by using this app (it is free) and export related files (it is also free) for using in different development environments. 
-In order to export 3 files (header.vols, sequence_0.vols - sequence of meshes, texture_1024_h264.mp4 - video with texture) do the following:
+In order to export own vologram, consisting of 3 files (header.vols, sequence_0.vols - sequence of meshes, texture_1024_h264.mp4 - video with texture), which are used in this component, do the following:
 1. Register free acount and generate own vologram.
 2. In the "Edit Vologram" menu (please note that you can only edit own vologram; example volograms do not have such an option), use "Export" button to export vologram. Make sure to save it as .zip file in the local system.
 3. Download/copy .zip file to your PC and unzip it. Take resulting 3 files and put them inside vologram folder or any other place you want (make sure that the URL reflects that).
