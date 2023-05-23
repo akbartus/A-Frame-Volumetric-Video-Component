@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <Title>A-Frame Component: Volumetric Video</Title>
+    <script src='https://aframe.io/releases/1.4.2/aframe.min.js'></script>
+    <script src="js/vologram-component.js"></script>
+    <style>
+        #button-container {
+            position: fixed;
+            bottom: 0;
+            width: 300px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 5%;
+            width: 200px;
+            text-align: center;
+            z-index: 3;
+        }
+        #load-vologram,
+        #play-vologram,
+        #pause-vologram {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="button-container">
+        <input type="button" id="load-vologram" value="Load">
+        <input type="button" id="play-vologram" value="Play">
+        <input type="button" id="pause-vologram" value="Pause">
+    </div>
+
+    <a-scene>
+        <a-entity id="vologram"
+            vologram-component="headerUrl: vologram/header.vols; sequenceUrl: vologram/sequence_0.vols; videoUrl: vologram/texture_2048_h264.mp4; vologramFps: 30.0"
+            position="0 0 -3"></a-entity>
+        <a-plane position='0 0 -4' rotation='-90 0 0' width='4' height='4' color='#7BC8A4'></a-plane>
+        <a-sky color='#ECECEC'></a-sky>
+    </a-scene>
+</body>
+
+</html>
