@@ -68,7 +68,7 @@ In order to export own vologram, consisting of 3 files (header.vols, sequence_0.
 3. Download/copy .zip file to your PC and unzip it. Take resulting 3 files and put them inside vologram folder or any other place you want (make sure that the URL reflects that).
 
 ### **Limitations**
-The component uses requestVideoFrameCallback() extension, which is needed for synchronous video frame fetching. However this callback is not supported on all <a href="https://caniuse.com/mdn-api_htmlvideoelement_requestvideoframecallback">browsers</a> yet. In my tests it worked well with the following browsers:  Safari (IOS), Samsung (Android), Firefox (Android). Chrome (Android) unfortunately does not work yet (although desktop Chrome browser works well with it).  
+The component uses requestVideoFrameCallback() extension, which is needed for synchronous video frame fetching. However this callback is not supported on all <a href="https://caniuse.com/mdn-api_htmlvideoelement_requestvideoframecallback">browsers</a> yet. In my tests it worked well with the following browsers:  Safari (IOS), Samsung (Android). Firefox (Android) does not work well (although texture gets updated mesh remains the same).  Chrome (Android) unfortunately does not work yet (although desktop Chrome browser works well with it).  
 
 ### **Texture rendering**
 Sometimes texture is not rendered well on the mesh (some glitches emerge). Slight change of fps can solve the issue. For example, making fps 30.02 solves the problem.  
