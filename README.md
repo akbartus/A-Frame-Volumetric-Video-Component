@@ -66,7 +66,12 @@ In order to export own vologram, consisting of 3 files (header.vols, sequence_0.
 1. Register free acount and generate own vologram.
 2. In the "Edit Vologram" menu (please note that you can only edit own vologram; example volograms do not have such an option), use "Export" button to export vologram. Make sure to save it as .zip file in the local system.
 3. Download/copy .zip file to your PC and unzip it. Take resulting 3 files and put them inside vologram folder or any other place you want (make sure that the URL reflects that).
-    
+
+### **Limitations**
+The component uses requestVideoFrameCallback() extension, which is needed for synchronous video frame fetching. However the this callback is not supported on all <a href="https://caniuse.com/mdn-api_htmlvideoelement_requestvideoframecallback">browsers</a> yet. In my tests it worked well with the following browsers:  Safari (IOS), Samsung (Android), Firefox (Android). Chrome (Android) unfortunately does not work yet (although desktop Chrome browser works well with it).  
+
+### **Texture rendering**
+Sometimes texture is not rendered well on the mesh (some glitches emerge). Slight change of fps can solve the issue. For example, making fps 30.02 solves the problem.  
 
 ### **Tech Stack**
 The project is powered by AFrame and Three.js. Sample vologram was taken from <a href="https://github.com/Volograms/vol_libs">vol_libs</a> repository. 
