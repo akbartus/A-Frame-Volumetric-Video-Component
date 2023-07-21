@@ -73,6 +73,10 @@ The component uses requestVideoFrameCallback() extension, which is needed for sy
 ### **Texture rendering**
 Sometimes texture is not rendered well on the mesh (some glitches emerge). Slight change of fps can solve the issue. For example, making fps 30.02 solves the problem.  
 
+### **Future Updates**
+* Multiple volograms
+* Code optimization 
+
 ### **Tech Stack**
 The project is powered by AFrame and Three.js. Sample vologram was taken from <a href="https://github.com/Volograms/vol_libs">vol_libs</a> repository. 
 
