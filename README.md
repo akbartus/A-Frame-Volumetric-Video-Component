@@ -2,7 +2,7 @@
 <img src="img/screenshot.gif" title="Video screen capture" alt="Video screen capture" height="400">
 
 ### **Description / Rationale**
-This is an A-Frame component for volumetric videos, which is powered by Volograms. The creation of the component was inspired from similar works of Remy Mellet <a href="https://github.com/remmel/volograms-js">Volograms.js</a>, <a href="https://github.com/remmel/aframe-volograms">A-Frame Volograms</a> and Volograms' playback library <a href="https://github.com/Volograms/vol_libs">vol_libs</a>. The latter was used as the main source for developing this component. 
+This is an A-Frame component for volumetric videos, which is powered by Volograms. The creation of the component was inspired from similar works of Remy Mellet <a href="https://github.com/remmel/volograms-js">Volograms.js</a>, <a href="https://github.com/remmel/aframe-volograms">A-Frame Volograms</a> and Volograms' playback library <a href="https://github.com/Volograms/vol_libs">vol_libs</a>. 
 The main difference with Remy Mellet's A-Frame component is that this component is based on vologram web player using three.js, and the vol_geom library compiled to WASM.     
 
 ### **Instructions**
