@@ -81,5 +81,5 @@ Sometimes texture is not rendered well on the mesh (some glitches emerge). Sligh
 The project is powered by AFrame and Three.js. Sample vologram was taken from <a href="https://github.com/Volograms/vol_libs">vol_libs</a> repository. 
 
 ### **Demo**
-See demo of the component here: [Demo](https://volumetric-vid.glitch.me/)
+See demo of the component here: [Demo](https://volumetric-vid.glitch.me/)<br>
 See demo of the component in AR: <a href="https://volumetric-vid.glitch.me/index2.html">Click here</a>, <a href="https://hiukim.github.io/mind-ar-js-doc/assets/images/card-06cb9111a8e32627db6bfafc7aa22a4d.png">target</a>
